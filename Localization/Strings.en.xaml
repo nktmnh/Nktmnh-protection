@@ -1,0 +1,72 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="AppTitle">Cinderella Protection</sys:String>
+    <sys:String x:Key="AppSubtitle">Static Malware Triage &amp; File Reputation Checker</sys:String>
+
+    <sys:String x:Key="LanguageToggle">Tiếng Việt</sys:String>
+    <sys:String x:Key="ClearLog">Clear Log</sys:String>
+    <sys:String x:Key="CancelScan">Cancel Scan</sys:String>
+    <sys:String x:Key="WorkerLabel">Workers</sys:String>
+    <sys:String x:Key="RulesFolder">Rules Folder</sys:String>
+    <sys:String x:Key="ExportJson">Export JSON</sys:String>
+    <sys:String x:Key="ExportCsv">Export CSV</sys:String>
+    <sys:String x:Key="CopySha256">Copy SHA-256</sys:String>
+    <sys:String x:Key="OpenFolder">Open Folder</sys:String>
+    <sys:String x:Key="FilterTooltip">Filter by file name, hash, type, PE summary, IOC, or YARA match</sys:String>
+    <sys:String x:Key="FilterAll">All statuses</sys:String>
+
+    <sys:String x:Key="DropZoneTitle">Drop Files or Folders Here</sys:String>
+    <sys:String x:Key="DropZoneSubtitle">Drag &amp; drop files, multiple files, or entire folders for recursive static analysis</sys:String>
+    <sys:String x:Key="BrowseFiles">Browse Files</sys:String>
+    <sys:String x:Key="BrowseFolder">Browse Folder</sys:String>
+
+    <sys:String x:Key="SummaryTitle">Scan Summary</sys:String>
+    <sys:String x:Key="TotalFiles">Total Files</sys:String>
+    <sys:String x:Key="Processed">Processed</sys:String>
+    <sys:String x:Key="Safe">Safe</sys:String>
+    <sys:String x:Key="Suspicious">Suspicious</sys:String>
+    <sys:String x:Key="Malicious">Malicious</sys:String>
+    <sys:String x:Key="Errors">Errors</sys:String>
+
+    <sys:String x:Key="ResultsTitle">Scan Results</sys:String>
+    <sys:String x:Key="ColumnFileName">File Name</sys:String>
+    <sys:String x:Key="ColumnType">Type</sys:String>
+    <sys:String x:Key="ColumnHash">SHA-256</sys:String>
+    <sys:String x:Key="ColumnStatus">Status</sys:String>
+    <sys:String x:Key="ColumnEntropy">Entropy</sys:String>
+    <sys:String x:Key="ColumnSize">Size</sys:String>
+    <sys:String x:Key="ColumnTime">Time</sys:String>
+    <sys:String x:Key="PeIndicators">PE indicators</sys:String>
+    <sys:String x:Key="MatchedRules">Matched rules</sys:String>
+    <sys:String x:Key="IocUrls">IOC URLs</sys:String>
+
+    <sys:String x:Key="Status_Safe">Safe</sys:String>
+    <sys:String x:Key="Status_Suspicious">Suspicious</sys:String>
+    <sys:String x:Key="Status_Malicious">Malicious</sys:String>
+    <sys:String x:Key="Status_Error">Error</sys:String>
+
+    <sys:String x:Key="LogConsoleTitle">Live Log Console</sys:String>
+    <sys:String x:Key="Log_Ready">Ready. Drop files or folders to begin static analysis.</sys:String>
+    <sys:String x:Key="Log_ScanStarted">Starting scan of {0} file(s)...</sys:String>
+    <sys:String x:Key="Log_ParallelWorkers">Using {0} parallel workers.</sys:String>
+    <sys:String x:Key="Log_HashingFile">Hashing and analyzing {0}...</sys:String>
+    <sys:String x:Key="Log_HashComplete">{0} - SHA-256: {1}</sys:String>
+    <sys:String x:Key="Log_StatusSafe">{0} - Status: SAFE</sys:String>
+    <sys:String x:Key="Log_StatusSuspicious">{0} - Status: SUSPICIOUS</sys:String>
+    <sys:String x:Key="Log_StatusMalicious">{0} - Status: MALICIOUS</sys:String>
+    <sys:String x:Key="Log_StatusUnknown">{0} - Status: UNKNOWN</sys:String>
+    <sys:String x:Key="Log_FileError">Error processing {0}: {1}</sys:String>
+    <sys:String x:Key="Log_ScanComplete">Scan complete. Processed {0} file(s) - Safe: {1}, Suspicious: {2}, Malicious: {3}</sys:String>
+    <sys:String x:Key="Log_FoundFiles">Found {0} file(s) from dropped item(s).</sys:String>
+    <sys:String x:Key="Log_NoFiles">No files found in dropped item(s).</sys:String>
+    <sys:String x:Key="Log_ScanCancelled">Scan cancelled by user.</sys:String>
+    <sys:String x:Key="Log_DropReceived">Drop received - collecting file paths...</sys:String>
+    <sys:String x:Key="Log_LanguageChanged">Language switched to English.</sys:String>
+    <sys:String x:Key="Log_YaraRulesLoaded">Loaded {0} YARA-lite rules.</sys:String>
+    <sys:String x:Key="Log_RulesFolderSelected">Rules folder selected: {0}</sys:String>
+    <sys:String x:Key="Log_CopiedSha256">Copied SHA-256 for {0}.</sys:String>
+    <sys:String x:Key="Log_ExportComplete">Export complete: {0}</sys:String>
+
+</ResourceDictionary>
