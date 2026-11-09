@@ -12,7 +12,9 @@
     <ApplicationIcon>app.ico</ApplicationIcon>
     <AssemblyTitle>Cinderella Protection</AssemblyTitle>
     <Description>Static malware triage and file reputation checker</Description>
-    <Company>Cinderella Protection</Company>
+    <Company>nktmnh</Company>
+    <Authors>nktmnh</Authors>
+    <Copyright>Copyright © 2026 nktmnh</Copyright>
     <Product>Cinderella Protection</Product>
   </PropertyGroup>
 

@@ -37,7 +37,7 @@ A WPF .NET 8 desktop app for local static malware triage, file hashing, PE inspe
 ## Build
 
 ```powershell
-cd "C:\Users\Ninym\Desktop\hoc web\phan_tich_malware\CinderellaProtection"
+cd Cinderella-Protection-main
 dotnet build
 ```
 
@@ -82,3 +82,7 @@ CinderellaProtection/
 ## Notes
 
 This app is intended for local defensive analysis and learning. Treat unknown files as unsafe and analyze them in a controlled environment.
+
+## Author
+
+Developed and maintained by **nktmnh**.
