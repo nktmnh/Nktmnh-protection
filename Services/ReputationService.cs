@@ -1,6 +1,6 @@
-using CinderellaProtection.Models;
+using NktmnhProtection.Models;
 
-namespace CinderellaProtection.Services;
+namespace NktmnhProtection.Services;
 
 /// <summary>
 /// Simulates a Threat Intelligence API (e.g. VirusTotal) lookup by SHA-256 hash.

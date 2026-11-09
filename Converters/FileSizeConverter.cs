@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace CinderellaProtection.Converters;
+namespace NktmnhProtection.Converters;
 
 public sealed class FileSizeConverter : IValueConverter
 {

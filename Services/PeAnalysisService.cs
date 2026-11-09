@@ -3,9 +3,9 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using CinderellaProtection.Models;
+using NktmnhProtection.Models;
 
-namespace CinderellaProtection.Services;
+namespace NktmnhProtection.Services;
 
 public sealed class PeAnalysisService
 {

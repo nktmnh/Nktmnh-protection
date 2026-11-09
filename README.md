@@ -37,7 +37,7 @@ A WPF .NET 8 desktop app for local static malware triage, file hashing, PE inspe
 ## Build
 
 ```powershell
-cd Cinderella-Protection-main
+cd nktmnhprotection
 dotnet build
 ```
 

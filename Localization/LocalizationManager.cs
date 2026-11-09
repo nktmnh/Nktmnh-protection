@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace CinderellaProtection.Localization;
+namespace NktmnhProtection.Localization;
 
 public static class LocalizationManager
 {

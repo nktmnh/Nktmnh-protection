@@ -1,4 +1,4 @@
-namespace CinderellaProtection.Models;
+namespace NktmnhProtection.Models;
 
 public sealed class HashResult
 {

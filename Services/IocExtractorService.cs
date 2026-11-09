@@ -1,9 +1,9 @@
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-using CinderellaProtection.Models;
+using NktmnhProtection.Models;
 
-namespace CinderellaProtection.Services;
+namespace NktmnhProtection.Services;
 
 public sealed class IocExtractorService
 {

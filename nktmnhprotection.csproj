@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <AssemblyName>nktmnhprotection</AssemblyName>
-    <RootNamespace>CinderellaProtection</RootNamespace>
+    <RootNamespace>NktmnhProtection</RootNamespace>
     <ApplicationDisplayVersion>1.0.0</ApplicationDisplayVersion>
     <ApplicationIcon>app.ico</ApplicationIcon>
     <AssemblyTitle>nktmnhprotection</AssemblyTitle>

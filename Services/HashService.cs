@@ -1,8 +1,8 @@
 using System.IO;
 using System.Security.Cryptography;
-using CinderellaProtection.Models;
+using NktmnhProtection.Models;
 
-namespace CinderellaProtection.Services;
+namespace NktmnhProtection.Services;
 
 public sealed class HashService
 {

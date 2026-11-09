@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace CinderellaProtection.Services;
+namespace NktmnhProtection.Services;
 
 public sealed class FileTypeService
 {

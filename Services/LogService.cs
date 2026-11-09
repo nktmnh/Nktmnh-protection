@@ -3,9 +3,9 @@ using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Media;
 using System.Windows.Threading;
-using CinderellaProtection.Localization;
+using NktmnhProtection.Localization;
 
-namespace CinderellaProtection.Services;
+namespace NktmnhProtection.Services;
 
 public sealed class LogService
 {

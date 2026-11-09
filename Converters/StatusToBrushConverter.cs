@@ -1,8 +1,8 @@
 using System.Globalization;
 using System.Windows.Data;
-using CinderellaProtection.Models;
+using NktmnhProtection.Models;
 
-namespace CinderellaProtection.Converters;
+namespace NktmnhProtection.Converters;
 
 public sealed class StatusToBrushConverter : IValueConverter
 {

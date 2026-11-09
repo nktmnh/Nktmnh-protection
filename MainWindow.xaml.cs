@@ -12,13 +12,13 @@ using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Interop;
 using System.Windows.Media;
-using CinderellaProtection.Helpers;
-using CinderellaProtection.Localization;
-using CinderellaProtection.Models;
-using CinderellaProtection.Services;
+using NktmnhProtection.Helpers;
+using NktmnhProtection.Localization;
+using NktmnhProtection.Models;
+using NktmnhProtection.Services;
 using Microsoft.Win32;
 
-namespace CinderellaProtection;
+namespace NktmnhProtection;
 
 public partial class MainWindow : Window
 {

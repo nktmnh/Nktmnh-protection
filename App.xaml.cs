@@ -1,7 +1,7 @@
 using System.Windows;
 using System.Windows.Threading;
 
-namespace CinderellaProtection;
+namespace NktmnhProtection;
 
 public partial class App : Application
 {

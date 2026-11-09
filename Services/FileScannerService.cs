@@ -1,8 +1,8 @@
 using System.IO;
 using System.Threading.Tasks.Dataflow;
-using CinderellaProtection.Models;
+using NktmnhProtection.Models;
 
-namespace CinderellaProtection.Services;
+namespace NktmnhProtection.Services;
 
 public sealed class FileScannerService
 {

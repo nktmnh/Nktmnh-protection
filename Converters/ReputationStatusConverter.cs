@@ -1,9 +1,9 @@
 using System.Globalization;
 using System.Windows.Data;
-using CinderellaProtection.Localization;
-using CinderellaProtection.Models;
+using NktmnhProtection.Localization;
+using NktmnhProtection.Models;
 
-namespace CinderellaProtection.Converters;
+namespace NktmnhProtection.Converters;
 
 public sealed class ReputationStatusConverter : IValueConverter
 {
