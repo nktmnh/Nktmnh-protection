@@ -160,7 +160,7 @@ public partial class MainWindow : Window
             _logService?.Error("Log_FileError", "drop", ex.Message);
             MessageBox.Show(
                 ex.Message,
-                "Cinderella Protection",
+                "nktmnhprotection",
                 MessageBoxButton.OK,
                 MessageBoxImage.Warning);
         }
@@ -573,7 +573,7 @@ public partial class MainWindow : Window
         {
             Title = LocalizationManager.GetString("ExportJson"),
             Filter = "JSON report (*.json)|*.json",
-            FileName = $"cinderella-report-{DateTime.Now:yyyyMMdd-HHmmss}.json"
+            FileName = $"nktmnhprotection-report-{DateTime.Now:yyyyMMdd-HHmmss}.json"
         };
 
         if (dialog.ShowDialog() != true)
@@ -596,7 +596,7 @@ public partial class MainWindow : Window
         {
             Title = LocalizationManager.GetString("ExportCsv"),
             Filter = "CSV report (*.csv)|*.csv",
-            FileName = $"cinderella-report-{DateTime.Now:yyyyMMdd-HHmmss}.csv"
+            FileName = $"nktmnhprotection-report-{DateTime.Now:yyyyMMdd-HHmmss}.csv"
         };
 
         if (dialog.ShowDialog() != true)

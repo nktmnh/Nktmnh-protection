@@ -24,7 +24,7 @@ public partial class App : Application
 
         MessageBox.Show(
             $"The app caught an unexpected UI error and stayed open:\n\n{e.Exception.Message}",
-            "Cinderella Protection",
+            "nktmnhprotection",
             MessageBoxButton.OK,
             MessageBoxImage.Warning);
     }
@@ -41,7 +41,7 @@ public partial class App : Application
 
         MessageBox.Show(
             $"Unexpected error:\n\n{ex.Message}",
-            "Cinderella Protection",
+            "nktmnhprotection",
             MessageBoxButton.OK,
             MessageBoxImage.Error);
     }

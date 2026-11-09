@@ -1,4 +1,4 @@
-# Cinderella Protection
+# nktmnhprotection
 
 A WPF .NET 8 desktop app for local static malware triage, file hashing, PE inspection, IOC extraction, offline YARA-lite rule matching, and simulated file reputation checks.
 
@@ -50,7 +50,7 @@ dotnet publish -c Release
 The single-file EXE is generated under:
 
 ```text
-CinderellaProtection\bin\Release\net8.0-windows\win-x64\publish\
+nktmnhprotection\bin\Release\net8.0-windows\win-x64\publish\
 ```
 
 ## Rules
@@ -66,7 +66,7 @@ Open the app, click **Rules Folder**, and select the `Rules` folder to enable ma
 ## Project Structure
 
 ```text
-CinderellaProtection/
+nktmnhprotection/
   Converters/
   Helpers/
   Localization/
@@ -76,7 +76,7 @@ CinderellaProtection/
   App.xaml
   MainWindow.xaml
   MainWindow.xaml.cs
-  CinderellaProtection.csproj
+  nktmnhprotection.csproj
 ```
 
 ## Notes

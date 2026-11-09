@@ -6,16 +6,16 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
-    <AssemblyName>CinderellaProtection</AssemblyName>
+    <AssemblyName>nktmnhprotection</AssemblyName>
     <RootNamespace>CinderellaProtection</RootNamespace>
     <ApplicationDisplayVersion>1.0.0</ApplicationDisplayVersion>
     <ApplicationIcon>app.ico</ApplicationIcon>
-    <AssemblyTitle>Cinderella Protection</AssemblyTitle>
-    <Description>Static malware triage and file reputation checker</Description>
+    <AssemblyTitle>nktmnhprotection</AssemblyTitle>
+    <Description>nktmnhprotection - static malware triage and file reputation checker</Description>
     <Company>nktmnh</Company>
     <Authors>nktmnh</Authors>
     <Copyright>Copyright © 2026 nktmnh</Copyright>
-    <Product>Cinderella Protection</Product>
+    <Product>nktmnhprotection</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
